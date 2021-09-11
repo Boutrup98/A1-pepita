@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="pepita.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>PEPITA CALCULATOR</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pied-winged_swallow_%28Hirundo_leucosoma%29.jpg/440px-Pied-winged_swallow_%28Hirundo_leucosoma%29.jpg" alt="test" class="birdImage">
+        <div class="inputFields">
+            <input class="input" id="eatInputID" type="number" placeholder="Grams of food">
+            <input class="input" id="flyInputID" type="number" placeholder="Kilometers flown">
+            <button class="input" onclick="button_pressed();errorMessage();">Calculate energy</button>
+        </div>
+    <div class="inputFields">
+        <h2 id="mainTitle">Pepita's energy: 0</h2>
+        <button class="reset" onClick="window.location.reload();">Reset</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+h1 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.birdImage {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputFields {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.reset {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
